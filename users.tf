@@ -19,6 +19,7 @@ locals {
     "kjehanse",
     "timpeteren",
     "warfair1337",
-    "weq"
+    "weq",
+    "benaarvik"
   ])
 }
