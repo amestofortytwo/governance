@@ -10,17 +10,15 @@ locals {
   ])
 
   users = toset([
-    "alegri90",
-    "bittib010",
-    "dahol",
+    "alegri90",   # Alexander Grimstad
+    "bittib010",  # Adrian Kyland Skaftun
     "eigard",     # Morten Eigard
     "FRGulli",    # Frank Gulli
     "hannelan",   # Hannelen Leirvåg
     "kjehanse",   # Kjetil Hansen
     "timpeteren", # Tim Peter Edstrøm
-    "warfair1337",
-    "weq",
-    "benaarvik", # Bendik Aarvik
-    "mysteq"     # Ketil Gjerde
+    "weq",        # Raymond Siring
+    "benaarvik",  # Bendik Aarvik
+    "mysteq"      # Ketil Gjerde
   ])
 }
