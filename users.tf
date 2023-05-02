@@ -10,6 +10,7 @@ locals {
   ])
 
   users = toset([
+    "antnsn",     # Marius Antonsen
     "alegri90",   # Alexander Grimstad
     "bittib010",  # Adrian Kyland Skaftun
     "eigard",     # Morten Eigard
