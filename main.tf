@@ -24,5 +24,6 @@ resource "github_team" "all_users" {
 resource "github_team_membership" "all_users" {
   for_each = setunion(local.users, local.admins)
   username = each.key
+  role     = can(github_membership.admin[each.key]) ? "maintainer" : "member"
   team_id  = github_team.all_users.id
 }
