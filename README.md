@@ -31,5 +31,8 @@ No outputs.
 
 | Name | Type |
 |------|------|
-| [github_membership.main](https://registry.terraform.io/providers/integrations/github/4.17.0/docs/resources/membership) | resource |
+| [github_membership.admin](https://registry.terraform.io/providers/integrations/github/4.17.0/docs/resources/membership) | resource |
+| [github_membership.users](https://registry.terraform.io/providers/integrations/github/4.17.0/docs/resources/membership) | resource |
+| [github_team.all_users](https://registry.terraform.io/providers/integrations/github/4.17.0/docs/resources/team) | resource |
+| [github_team_membership.all_users](https://registry.terraform.io/providers/integrations/github/4.17.0/docs/resources/team_membership) | resource |
 <!-- END_TF_DOCS -->
