@@ -1,5 +1,5 @@
 locals {
-  admins = toset([
+  admins = [
     "4t2-marvin",    # Marvin
     "roberthstrand", # Roberth Strand
     "mariussm",      # Marius Solbakken
@@ -7,9 +7,9 @@ locals {
     "remiks",        # Remi Vandemir
     "sGrindvoll",    # Sindre Grindvoll
     "sikksakk"       # Christoffer Thomsen
-  ])
+  ]
 
-  users = toset([
+  users = [
     "antnsn",    # Marius Antonsen
     "alegri90",  # Alexander Grimstad
     "bittib010", # Adrian Kyland Skaftun
@@ -23,5 +23,5 @@ locals {
     "weq",        # Raymond Siring
     "benaarvik",  # Bendik Aarvik
     "mysteq"      # Ketil Gjerde
-  ])
+  ]
 }

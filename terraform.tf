@@ -16,3 +16,8 @@ terraform {
 provider "github" {
   owner = "amestofortytwo"
 }
+
+provider "github" {
+  alias = "fortytwolabs"
+  owner = "fortytwolabs"
+}
