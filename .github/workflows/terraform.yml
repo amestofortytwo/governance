@@ -32,14 +32,9 @@ jobs:
 
   terraform:
     name: "Terraform"
-    environment: Production
+    environment: production
     runs-on: ubuntu-latest
     needs: tfsec
-    env:
-      ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
-      ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
-      ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
-      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -56,6 +51,12 @@ jobs:
       - name: Terraform Init
         id: init
         run: terraform init
+        env:
+          ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+          ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.MARVIN_PAT }}
       
       - name: Terraform Validate
         id: validate
