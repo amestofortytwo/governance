@@ -5,13 +5,19 @@
 */
 
 resource "github_membership" "admin" {
-  for_each = local.admins
+  for_each = toset(local.admins)
   username = each.key
   role     = "admin"
 }
 
 resource "github_membership" "users" {
-  for_each = local.users
+  for_each = toset(local.users)
+  username = each.key
+}
+
+resource "github_membership" "fortytwolabs" {
+  provider = github.fortytwolabs
+  for_each = toset(concat(local.admins, local.users))
   username = each.key
 }
 
