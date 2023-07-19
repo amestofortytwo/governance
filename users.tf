@@ -6,7 +6,8 @@ locals {
     "olebru",        # Ole Idar Bruvik
     "remiks",        # Remi Vandemir
     "sGrindvoll",    # Sindre Grindvoll
-    "sikksakk"       # Christoffer Thomsen
+    "sikksakk",      # Christoffer Thomsen
+    "mysteq"         # Ketil Gjerde
   ])
 
   users = toset([
@@ -21,7 +22,6 @@ locals {
     #   "lund76",     # Søren Lund @ Amesto Solutions, skipped for now to not add him to All Users.
     "timpeteren", # Tim Peter Edstrøm
     "weq",        # Raymond Siring
-    "benaarvik",  # Bendik Aarvik
-    "mysteq"      # Ketil Gjerde
+    "benaarvik"   # Bendik Aarvik
   ])
 }
