@@ -19,7 +19,7 @@ resource "github_membership" "fortytwolabs" {
   provider = github.fortytwolabs
   for_each = setunion(local.admins, local.users)
   username = each.key
-  role     = can(github_membership.admin[each.key]) ? "admin" : "member"
+  role     = contains(locals.admin, each.key) ? "admin" : "member"
 }
 
 resource "github_team" "all_users" {
@@ -31,6 +31,6 @@ resource "github_team" "all_users" {
 resource "github_team_membership" "all_users" {
   for_each = setunion(local.users, local.admins)
   username = each.key
-  role     = can(github_membership.admin[each.key]) ? "maintainer" : "member"
+  role     = contains(locals.admin, each.key) ? "maintainer" : "member"
   team_id  = github_team.all_users.id
 }
