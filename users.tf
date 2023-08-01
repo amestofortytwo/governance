@@ -23,7 +23,6 @@ locals {
     #   "lund76",     # Søren Lund @ Amesto Solutions, skipped for now to not add him to All Users.
     "timpeteren", # Tim Peter Edstrøm
     "weq",        # Raymond Siring
-    "benaarvik",  # Bendik Aarvik
-    "mysteq"      # Ketil Gjerde
+    "benaarvik"   # Bendik Aarvik
   ])
 }
