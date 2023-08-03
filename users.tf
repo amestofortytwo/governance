@@ -26,7 +26,7 @@ locals {
     "weq",        # Raymond Siring
     "benaarvik"   # Bendik Aarvik
   ])
-
+/*
   outside_collaborators = { # Not used, purely for documentation purposes
     "blankcan" = {
       "name" = "Hired help for MTG, owned by Adrian"
@@ -37,4 +37,5 @@ locals {
       }
     }
   }
+*/
 }
