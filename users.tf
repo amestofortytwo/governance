@@ -24,9 +24,8 @@ locals {
     "timpeteren",    # Tim Peter Edstrøm
     "weq",           # Raymond Siring
     "benaarvik",     # Bendik Aarvik
-    "andrenascentes" # Andrè Nascentes
+    "andrenascentes" # Andrè Nascentes .
   ])
-  
   /*
   outside_collaborators = { # Not used, purely for documentation purposes
     "blankcan" = {
