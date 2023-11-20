@@ -21,10 +21,10 @@ locals {
     "FRGulli",   # Frank Gulli
     "hannelan",  # Hannelen Leirvåg
     "kjehanse",  # Kjetil Hansen
-    #   "lund76",     # Søren Lund @ Amesto Solutions, skipped for now to not add him to All Users.
     "timpeteren", # Tim Peter Edstrøm
     "weq",        # Raymond Siring
-    "benaarvik"   # Bendik Aarvik
+    "benaarvik",  # Bendik Aarvik
+    "andrenascentes"  # Andrè Nascentes
   ])
   /*
   outside_collaborators = { # Not used, purely for documentation purposes
