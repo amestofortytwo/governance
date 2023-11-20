@@ -26,6 +26,7 @@ locals {
     "benaarvik",     # Bendik Aarvik
     "andrenascentes" # Andrè Nascentes
   ])
+  
   /*
   outside_collaborators = { # Not used, purely for documentation purposes
     "blankcan" = {
