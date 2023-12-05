@@ -6,7 +6,7 @@ locals {
     "olebru",           # Ole Idar Bruvik
     "remiks",           # Remi Vandemir
     "sGrindvoll",       # Sindre Grindvoll
-    "sikksakk",         # Christoffer Thomsen
+    "sikksakk",         # Christopher Thomsen
     "mysteq",           # Ketil Gjerde
     "guidemetothemoon", # Kristina Devochko
     "deggja"            # Daniel Risnes Dagfinrud
@@ -17,7 +17,7 @@ locals {
     "alegri90",      # Alexander Grimstad
     "bittib010",     # Adrian Kyland Skaftun
     "dcstrand",      # Dominique Cid-Strand
-    "eigard",        # Morten Eigard
+    "alexsolaat",    # Alexander Solaat Rødland
     "FRGulli",       # Frank Gulli
     "hannelan",      # Hannelen Leirvåg
     "kjehanse",      # Kjetil Hansen
