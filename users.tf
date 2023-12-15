@@ -18,7 +18,6 @@ locals {
     "bittib010",     # Adrian Kyland Skaftun
     "dcstrand",      # Dominique Cid-Strand
     "alexsolaat",    # Alexander Solaat Rødland
-    "FRGulli",       # Frank Gulli
     "hannelan",      # Hannelen Leirvåg
     "kjehanse",      # Kjetil Hansen
     "timpeteren",    # Tim Peter Edstrøm
