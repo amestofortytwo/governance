@@ -2,7 +2,7 @@ terraform {
   required_providers {
     github = {
       source  = "integrations/github"
-      version = "4.17.0"
+      version = "6.0.0-beta"
     }
   }
   backend "azurerm" {
