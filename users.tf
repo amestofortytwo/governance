@@ -22,7 +22,8 @@ locals {
     #"weq",            # Raymond Siring
     "benaarvik",      # Bendik Aarvik
     "andrenascentes", # Andrè Nascentes
-    "LixFix"          # Alexander Matre
+    "LixFix",         # Alexander Matre
+    "ShitShotMcGee"   # Thomas Rogne Johansen
 
   ])
   /*
