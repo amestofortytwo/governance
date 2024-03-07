@@ -21,7 +21,8 @@ locals {
     "benaarvik",      # Bendik Aarvik
     "andrenascentes", # Andrè Nascentes
     "LixFix",         # Alexander Matre
-    "ShitShotMcGee"   # Thomas Rogne Johansen
+    "ShitShotMcGee",  # Thomas Rogne Johansen
+    "janke80"         # Jan Erik Jensen
 
   ])
   /*
