@@ -21,8 +21,8 @@ locals {
     "benaarvik",      # Bendik Aarvik
     "andrenascentes", # Andrè Nascentes
     "LixFix",         # Alexander Matre
-    "ShitShotMcGee"   # Thomas Rogne Johansen
-
+    "thoomasrj",      # Thomas Rogne Johansen
+    "janke80"         # Jan Erik Jensen
   ])
   /*
   outside_collaborators = { # Not used, purely for documentation purposes
